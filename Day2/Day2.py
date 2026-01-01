@@ -72,6 +72,7 @@ class LastWarClone:
                 # 増加ゲートの画像を表示
                 # blt(表示X, 表示Y, バンクNo, 画像U, 画像V, 幅, 高さ, 透過色)
                 # x座標を少しずらして(obj[1]-8)中心を合わせています
+                # 透明色の指定はしない
                 pyxel.blt(obj[1] - 8, obj[0], 0, 0, 0, 16, 16)
 
             elif obj[2] == "gate_minus":
